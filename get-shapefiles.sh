@@ -20,7 +20,7 @@ tar -xzf data/world_boundaries-spherical.tgz -C data/
 
 # simplified-land-polygons-complete-3857
 echo "downloading simplified-land-polygons-complete-3857..."
-curl -z "data/simplified-land-polygons-complete-3857.zip" -L -o "data/simplified-land-polygons-complete-3857.zip" "http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip"
+curl -z "data/simplified-land-polygons-complete-3857.zip" -L -o "data/simplified-land-polygons-complete-3857.zip" "https://osmdata.openstreetmap.de/download/simplified-land-polygons-complete-3857.zip"
 echo "simplified-land-polygons-complete-3857..."
 unzip $UNZIP_OPTS data/simplified-land-polygons-complete-3857.zip simplified-land-polygons-complete-3857/simplified_land_polygons.shp simplified-land-polygons-complete-3857/simplified_land_polygons.shx simplified-land-polygons-complete-3857/simplified_land_polygons.prj simplified-land-polygons-complete-3857/simplified_land_polygons.dbf simplified-land-polygons-complete-3857/simplified_land_polygons.cpg  -d data/
 
